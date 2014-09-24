@@ -1,0 +1,29 @@
+Installation :
+==============
+
+col2ordequivDDD needs two very specific libraries and one header from
+a usually avaiable library to compile :
+
+* C++ Boost "shared_ptr" template (http://www.boost.org/)
+  Your system should have a package to install this one.
+* libPetri
+  ???
+* libDDD (http://ddd.lip6.fr)
+  This library is available with a LGPL license.
+
+To build the tools, just type :
+./configure --with-libddd-incdir=path to libDDD includes
+	    --with-libddd-libdir=path to libDDD libraries
+	    --with-libpnet-incdir=path to libPetri includes
+	    --with-libpnet-libdir=path to libPetri libraries
+
+If your system does not have an installed package of C++ Boost,
+install it and add "--with-boost-incdir= root of Boost installation"
+argument to the ./configure line.
+
+Tools can be built using the FrameKit platform. Juste add a
+"--with-framekit= root of FrameKit installation" argument to the
+./configure line.
+
+You can give "--enable-debug" and "--enable-profile" too, to enable
+debug and profiling options of the compiler.

@@ -1,0 +1,24 @@
+People listed below have been involved in the development of this
+tool. They are happy to give you a tool with as little bugs as
+possible while fitting your needs.
+
+If you find a bug, make a patch, add a significant tool or want more
+documentation, you can contact them, starting with the maintainer of
+the tool.
+
+
+This tool is currently maintained by :
+--------------------------------------
+* Alban Linard (alban.linard@lip6.fr).
+
+
+Authors of this tool are :
+--------------------------
+* Alban Linard (alban.linard@lip6.fr) wrote the version 1.0 of
+col2ordequivDDD library and binaries.
+
+* Emmanuel Paviot-Adet (emmanuel.paviot-adet@lip6.fr) had the initial
+idea and helped during the development.
+
+* Xavier Renault (xrenault@src.lip6.fr) wrote the Autoconf/Automake
+stuff.
